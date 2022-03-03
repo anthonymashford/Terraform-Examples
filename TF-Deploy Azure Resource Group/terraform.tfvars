@@ -1,0 +1,5 @@
+rg_name_1 = "myLabResourceGroup"
+region_1  = "uksouth"
+tag_environment = "Lab"
+tag_createdby = "Your Name"
+tag_createdwith = "Terraform"

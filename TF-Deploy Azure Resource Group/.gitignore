@@ -27,6 +27,8 @@ override.tf.json
 # !example_override.tf
 providers.tf
 backend.tf
+.terraform.lock.hcl
+.gitignore
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
 *.tfplan

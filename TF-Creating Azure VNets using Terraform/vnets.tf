@@ -27,13 +27,6 @@ resource "azurerm_subnet" "vnet_1_snet_2" {
   resource_group_name  = azurerm_resource_group.rg_1.name
   virtual_network_name = azurerm_virtual_network.vnet_1.name
   address_prefixes     = [var.address_vnet_1_snet_2]
-  delegation {
-    name = "delegation"
-    service_delegation {
-      name    = "Microsoft.Netapp/volumes"
-      actions = ["Microsoft.Network/networkinterfaces/*", "Microsoft.Network/virtualNetworks/subnets/join/action"]
-    }
-  }
 }
 
 # Create VNet 2
@@ -65,11 +58,4 @@ resource "azurerm_subnet" "vnet_2_snet_2" {
   resource_group_name  = azurerm_resource_group.rg_2.name
   virtual_network_name = azurerm_virtual_network.vnet_2.name
   address_prefixes     = [var.address_vnet_2_snet_2]
-  delegation {
-    name = "delegation"
-    service_delegation {
-      name    = "Microsoft.Netapp/volumes"
-      actions = ["Microsoft.Network/networkinterfaces/*", "Microsoft.Network/virtualNetworks/subnets/join/action"]
-    }
-  }
 }

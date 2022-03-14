@@ -122,3 +122,178 @@ variable "labadmin" {
   description = "Lab Administrator"
   default     = ""
 }
+
+variable "vm1_name" {
+  description = "VM1 Name"
+  default     = ""
+}
+
+variable "vm2_name" {
+  description = "VM2 Name"
+  default     = ""
+}
+
+variable "vm3_name" {
+  description = "VM3 Name"
+  default     = ""
+}
+
+variable "vm4_name" {
+  description = "VM4 Name"
+  default     = ""
+}
+
+variable "pip_allocation" {
+  description = "PIP"
+  default     = ""
+}
+
+variable "pip_sku" {
+  description = "PIP SKU"
+  default     = ""
+}
+
+variable "nic_ip_allocation" {
+  description = "NIC Allocation"
+  default     = ""
+}
+
+variable "storage_account_type" {
+  description = "Storage Account Type"
+  default     = ""
+}
+
+variable "create_option" {
+  description = ""
+  default     = ""
+}
+
+variable "disk_size_gb" {
+  description = "Disk Size"
+  default     = ""
+}
+
+variable "disk_caching" {
+  description = "Disk Caching"
+  default     = ""
+}
+
+variable "vm1_ip_address" {
+  description = ""
+  default     = ""
+}
+
+variable "vm1_size" {
+  description = ""
+  default     = ""
+}
+
+variable "vm1_publisher" {
+  description = ""
+  default     = ""
+}
+
+variable "vm1_offer" {
+  description = ""
+  default     = ""
+}
+
+variable "vm1_sku" {
+  description = ""
+  default     = ""
+}
+
+variable "vm1_version" {
+  description = ""
+  default     = ""
+}
+
+variable "vm2_ip_address" {
+  description = ""
+  default     = ""
+}
+
+variable "vm2_size" {
+  description = ""
+  default     = ""
+}
+
+variable "vm2_publisher" {
+  description = ""
+  default     = ""
+}
+
+variable "vm2_offer" {
+  description = ""
+  default     = ""
+}
+
+variable "vm2_sku" {
+  description = ""
+  default     = ""
+}
+
+variable "vm2_version" {
+  description = ""
+  default     = ""
+}
+
+variable "vm3_ip_address" {
+  description = ""
+  default     = ""
+}
+
+variable "vm3_size" {
+  description = ""
+  default     = ""
+}
+
+variable "vm3_publisher" {
+  description = ""
+  default     = ""
+}
+
+variable "vm3_offer" {
+  description = ""
+  default     = ""
+}
+
+variable "vm3_sku" {
+  description = ""
+  default     = ""
+}
+
+variable "vm3_version" {
+  description = ""
+  default     = ""
+}
+
+variable "vm4_ip_address" {
+  description = ""
+  default     = ""
+}
+
+variable "vm4_size" {
+  description = ""
+  default     = ""
+}
+
+variable "vm4_publisher" {
+  description = ""
+  default     = ""
+}
+
+variable "vm4_offer" {
+  description = ""
+  default     = ""
+}
+
+variable "vm4_sku" {
+  description = ""
+  default     = ""
+}
+
+variable "vm4_version" {
+  description = ""
+  default     = ""
+}

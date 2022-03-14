@@ -112,3 +112,13 @@ variable "address_vnet_2_snet_2" {
   description = "Subnet address"
   default     = ""
 }
+
+variable "prefix" {
+  description = "Deployment Prefix"
+  default     = ""
+}
+
+variable "labadmin" {
+  description = "Lab Administrator"
+  default     = ""
+}

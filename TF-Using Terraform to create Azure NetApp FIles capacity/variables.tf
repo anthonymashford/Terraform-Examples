@@ -29,7 +29,7 @@ variable "tag_project" {
 }
 
 variable "prefix" {
-  description = "Resource Group Tags"
+  description = "Deployment Prefix"
   default     = ""
 }
 
@@ -55,5 +55,20 @@ variable "domain" {
 
 variable "ou" {
   description = "AD OU"
+  default     = ""
+}
+
+variable "cap_pool_tier" {
+  description = "Capacity Tier"
+  default     = ""
+}
+
+variable "cap_pool_size" {
+  description = "Capacity Pool Size"
+  default     = ""
+}
+
+variable "qos_type" {
+  description = "Volume Protocol"
   default     = ""
 }

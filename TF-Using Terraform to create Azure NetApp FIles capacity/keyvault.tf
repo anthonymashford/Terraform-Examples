@@ -43,13 +43,13 @@ resource "azurerm_key_vault" "keyvault" {
 
 }
 
-# Create Keyvault Admin Password
+# Create Random Password
 resource "random_password" "admin_random_password" {
   length  = 20
   special = true
 }
 
-# Create Keyvault Secret
+# Create Secret
 resource "azurerm_key_vault_secret" "admin_secret" {
   name         = var.labadmin
   value        = random_password.admin_random_password.result

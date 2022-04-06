@@ -7,7 +7,7 @@ resource "azurerm_netapp_account" "anf_acc_1" {
   # Acitve Directory configuration. 
   # This section has been commented out as an ANF account already exists in my demo subscription and region(s).
   # Uncomment this section if you need to add Active Directory configuration and amend the .tfvars file to suit.
- 
+ /*
   active_directory {
     username            = azurerm_key_vault_secret.admin_secret.name
     password            = azurerm_key_vault_secret.admin_secret.value
@@ -16,7 +16,7 @@ resource "azurerm_netapp_account" "anf_acc_1" {
     domain              = var.domain
     organizational_unit = var.ou
   }
- 
+ */
   tags = {
     Environment = var.tag_environment
     CreatedBy   = var.tag_createdby

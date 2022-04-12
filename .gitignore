@@ -30,3 +30,4 @@ override.tf.json
 .DS_Store
 TF-Deploying Azure Virtual Machines using Terraform/.terraform.lock.hcl
 .DS_Store
+.DS_Store

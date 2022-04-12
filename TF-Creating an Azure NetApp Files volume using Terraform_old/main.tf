@@ -3,7 +3,7 @@ terraform {
     azurerm = {
       # Specify what version of the provider we are going to utilise.
       source  = "hashicorp/azurerm"
-      version = ">= 2.90.0"
+      version = ">= 3.0.2"
     }
     random = {
       source  = "hashicorp/random"
@@ -30,5 +30,6 @@ resource "azurerm_resource_group" "rg_1" {
     Environment = var.tag_environment
     CreatedBy   = var.tag_createdby
     CreatedWith = var.tag_createdwith
+    Project     = var.tag_project
   }
 }

@@ -20,7 +20,7 @@ tag_createdby = "Yourname"
 # Created With - Change this as required
 tag_createdwith = "Terraform"
 # Project - This is requried if deploying into EMEA CSA Lab Subscription
-tag_project = "Your Project"
+tag_project = "emea-csa-anf"
 ######################################################################################
 #                     Network - Modify these parameters as required                  #
 ######################################################################################

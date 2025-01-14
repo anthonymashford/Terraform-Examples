@@ -1,6 +1,7 @@
 provider "azurerm" {
   features {}
-  subscription_id = "db95484c-40b0-4912-8066-3631243ad225"
+  # You will need to add your subscription_id here
+  subscription_id = "<<Add your sudID here>>"
 }
 
 resource "azurerm_resource_group" "rg-bkuplab" {
